@@ -1,4 +1,4 @@
-# RL SESSION Rust
+# RL SESSION (Rust)
 
 **RL SESSION Rust** est un outil gratuit et indépendant pour **Rocket League**, développé par **CLZOO** pour Windows x64 (**testé sur Windows 11** ; les autres versions ne sont pas encore validées). Il affiche les statistiques de session, les joueurs en match et, lorsque Tracker Network les fournit, les MMR réels.
 
