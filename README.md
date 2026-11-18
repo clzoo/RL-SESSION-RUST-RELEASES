@@ -6,7 +6,7 @@
 
 ## Télécharger
 
-Consultez l'onglet **Releases** de ce dépôt pour récupérer les fichiers de **v0.1.0** :
+Lorsque la version **v0.1.0** sera officiellement publiée, consultez l'onglet **Releases** de ce dépôt pour récupérer :
 
 - `RL-SESSION-RUST-Setup-0.1.0-x64.exe` — installateur Windows (pour l'utilisateur actuel ou tous les utilisateurs).
 - `RL-SESSION-RUST-Portable-0.1.0-x64.zip` — version portable autonome.
@@ -31,7 +31,7 @@ Comparez le résultat à la ligne correspondante de `SHA256SUMS.txt` disponible 
 ## Fonctions de v0.1.0
 
 - Compteur de sessions Rocket League, résultats confirmés, modes séparés et historique conservé entre les redémarrages.
-- Module joueurs : équipes, vrais MMR transmis par Tracker lorsque disponibles, 23 illustrations de rangs et informations de match.
+- Module joueurs : équipes, vrais MMR transmis par Tracker lorsque disponibles, **23 codes de rangs colorés** (NC, B1 à GC3, SSL) et informations de match, sans illustrations de rangs.
 - Dashboard **Ma session**, **Réglages**, **Réglages avancés** et **À propos** ; diagnostic intégré à l'interface.
 - Profils Tracker, raccourcis manette, mises en page enregistrées, icône de notification Windows et sauvegardes locales.
 
