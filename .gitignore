@@ -1,0 +1,20 @@
+# This PUBLIC repository must never contain application source or private data.
+*.exe
+*.zip
+*.7z
+*.dll
+*.pdb
+*.log
+*.json
+*.pem
+*.key
+*.pfx
+*.token
+node_modules/
+target/
+src/
+.git/
+dist/
+data/
+*.bak
+*.env
