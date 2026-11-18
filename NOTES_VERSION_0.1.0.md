@@ -12,7 +12,7 @@ RL SESSION Rust propose une application Windows native Rust/GPUI dédiée au sui
 - Trois fenêtres : compteur, panneau des joueurs et Dashboard.
 - Sessions et résultats de match confirmés, par mode et tous modes, sauvegardés entre les redémarrages.
 - Vrais MMR récupérés via Tracker Network lorsque le service les transmet, sans interpolation ni faux classement.
-- 23 illustrations de rangs et panneau joueurs validés en partie.
+- 23 codes de rangs colorés (NC, B1–B3, S1–S3, G1–G3, P1–P3, D1–D3, C1–C3, GC1–GC3, SSL), sans illustrations ni logos de rangs.
 - Actualisation du MMR personnel en début de match ; requêtes des autres joueurs volontairement limitées.
 - Avertissement conditionnel en cas de CAPTCHA/indisponibilité Tracker, sans contournement.
 - Dashboard avec Ma session, Réglages, Réglages avancés et À propos ; terminal de diagnostic intégré.
@@ -21,7 +21,7 @@ RL SESSION Rust propose une application Windows native Rust/GPUI dédiée au sui
 
 ## Validation de la version
 
-L'installateur et le ZIP ont été construits sur Windows, testés en situation réelle, avec vérification de l'icône EXE et des 23 PNG. Les tests Rust et la compilation Windows ont réussi sur GitHub Actions. La mise à niveau RC1, la désinstallation/réinstallation, la restauration des fichiers utilisateur, les vrais MMR et le ZIP extrait hors du dépôt ont été validés.
+La candidate précédente, qui contenait des illustrations de rangs, a passé les tests Windows et GitHub Actions, ainsi que la mise à niveau RC1, la désinstallation/réinstallation et les contrôles de données/MMR. **La nouvelle candidate à rangs textuels doit être reconstruite et testée séparément avant publication.** Les anciens SHA-256 et exécutables ne sont pas ceux de cette variante.
 
 **Empreintes SHA-256 :** voir `SHA256SUMS.txt` joint à la Release. Vérifiez vos fichiers téléchargés avant de les utiliser.
 
