@@ -12,7 +12,7 @@ La version **v0.1.0 est non signée** (`NotSigned` avec Authenticode). Windows S
 
 Les profils, dispositions et sessions sont conservés localement dans le dossier configuré. Le transport MMR intégré contacte Tracker Network pour accéder aux données de classement : son service peut répondre avec des erreurs 403/429, demander un CAPTCHA, ou devenir indisponible. Le programme n'effectue pas de contournement automatisé des restrictions de Tracker. Il ne faut pas promettre un MMR permanent.
 
-La version portable doit rester dans un dossier où les données peuvent être écrites et conserver ses sous-dossiers `mmr-transport` et `assets/ranks`. Lors d'une mise à niveau ou désinstallation, sauvegardez les données et arrêtez complètement l'application dans la zone de notification.
+La version portable doit rester dans un dossier où les données peuvent être écrites et conserver son sous-dossier `mmr-transport`. Cette variante affiche les rangs en texte coloré et ne distribue aucun PNG de rang. Lors d'une mise à niveau ou désinstallation, sauvegardez les données et arrêtez complètement l'application dans la zone de notification.
 
 ## Dépendances
 
