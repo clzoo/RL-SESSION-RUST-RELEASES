@@ -2,7 +2,13 @@
 
 **RL SESSION Rust** est un outil gratuit et indépendant pour **Rocket League**, développé par **CLZOO** pour Windows x64 (**testé sur Windows 11** ; les autres versions ne sont pas encore validées). Il affiche les statistiques de session, les joueurs en match et, lorsque Tracker Network les fournit, les MMR réels.
 
-> **Projet de fan non officiel.** RL SESSION n'est ni conçu, ni approuvé, ni soutenu par Epic Games ou Psyonix. La mention exigée par Epic et les informations de propriété intellectuelle sont dans [NOTICE_EPIC.md](NOTICE_EPIC.md). Aucun partenariat officiel n'est revendiqué.
+> **Projet de fan non officiel.** RL SESSION n'est ni conçu, ni approuvé, ni soutenu par Epic Games ou Psyonix. Aucun partenariat officiel n'est revendiqué.
+
+**Mention Epic Games requise par la section 1.10 de sa politique de contenu de fan :**
+
+> Des parties des supports utilisés sont des marques déposées et/ou des travaux soumis aux droits d’auteur d’Epic Games, Inc. Tous droits réservés par Epic. Ce produit n’est pas officiel et n’a pas l'approbation d'Epic.
+
+Lire les [informations légales et conditions de la politique Epic](NOTICE_EPIC.md).
 
 ## Télécharger
 
@@ -18,7 +24,7 @@ Lorsque la version **v0.1.0** sera officiellement publiée, consultez l'onglet *
 
 Fermez RL SESSION depuis la zone de notification avant une mise à niveau. Sauvegardez les profils et sessions avant une première désinstallation ou un changement de mode de stockage.
 
-L'installateur conserve normalement les données de chaque utilisateur dans `%LOCALAPPDATA%\RL-SESSION-RUST`. Le ZIP portable s'utilise après extraction **complète** et stocke par défaut les données à côté de l'exécutable, dans `data/`, sauf configuration de stockage explicite. Le dossier `mmr-transport` (Chromium) et `assets/ranks` doivent rester à côté du programme.
+L'installateur conserve normalement les données de chaque utilisateur dans `%LOCALAPPDATA%\RL-SESSION-RUST`. Le ZIP portable s'utilise après extraction **complète** et stocke par défaut les données à côté de l'exécutable, dans `data/`, sauf configuration de stockage explicite. Le dossier `mmr-transport` (Chromium) doit rester à côté du programme. Les rangs sont représentés par des **codes colorés**, sans sous-dossier d'illustrations `assets/ranks` dans les nouveaux téléchargements.
 
 Pour vérifier le téléchargement dans PowerShell :
 
