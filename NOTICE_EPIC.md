@@ -12,6 +12,6 @@ Source officielle : https://legal.epicgames.com/epicgames/fan-art-policy?lang=fr
 
 La politique d'Epic Games concerne certains contenus de fans personnels et non commerciaux, notamment les applications liées à ses jeux et librement accessibles. Elle encadre les usages des marques et l'interdiction de suggérer un partenariat ou une production officielle.
 
-La publication gratuite et cette mention n'entraînent pas automatiquement une autorisation pour tous les usages. Les droits des illustrations de rangs, les accords applicables aux jeux et les conditions de Tracker Network doivent être respectés.
+La publication gratuite et cette mention n'entraînent pas automatiquement une autorisation pour tous les usages. La version de distribution utilise des **codes de rangs textuels colorés**, et non des illustrations de rangs inspirées du jeu. Les accords applicables aux jeux, à leurs marques et aux services Tracker Network doivent également être respectés.
 
 **Aucune affiliation, autorisation ni approbation officielle d'Epic Games, de Psyonix ou de Tracker Network n'est revendiquée.**
