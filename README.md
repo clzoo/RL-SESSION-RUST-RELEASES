@@ -12,7 +12,7 @@ Lire les [informations légales et conditions de la politique Epic](NOTICE_EPIC.
 
 ## Télécharger
 
-**Version publique actuellement disponible : v0.1.2.** La v0.1.3 est validée sur Windows et sa distribution est en préparation ; elle ne doit pas être annoncée comme téléchargeable tant que ses fichiers n'apparaissent pas dans les [Releases GitHub](https://github.com/clzoo/RL-SESSION-RUST-RELEASES/releases).
+**Dernière version stable disponible : [v0.1.3](https://github.com/clzoo/RL-SESSION-RUST-RELEASES/releases/tag/v0.1.3)** — publiée pour Windows x64, avec installateur, ZIP portable et empreintes SHA-256.
 
 Pour la version publiée de votre choix, récupérer dans sa Release :
 
