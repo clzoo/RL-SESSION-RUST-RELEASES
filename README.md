@@ -12,13 +12,15 @@ Lire les [informations légales et conditions de la politique Epic](NOTICE_EPIC.
 
 ## Télécharger
 
-Lorsque la version **v0.1.0** sera officiellement publiée, consultez l'onglet **Releases** de ce dépôt pour récupérer :
+**Version publique actuellement disponible : v0.1.2.** La v0.1.3 est validée sur Windows et sa distribution est en préparation ; elle ne doit pas être annoncée comme téléchargeable tant que ses fichiers n'apparaissent pas dans les [Releases GitHub](https://github.com/clzoo/RL-SESSION-RUST-RELEASES/releases).
 
-- `RL-SESSION-RUST-Setup-0.1.0-x64.exe` — installateur Windows (pour l'utilisateur actuel ou tous les utilisateurs).
-- `RL-SESSION-RUST-Portable-0.1.0-x64.zip` — version portable autonome.
+Pour la version publiée de votre choix, récupérer dans sa Release :
+
+- `RL-SESSION-RUST-Setup-<version>-x64.exe` — installateur Windows (utilisateur actuel ou tous les utilisateurs).
+- `RL-SESSION-RUST-Portable-<version>-x64.zip` — version portable autonome.
 - `SHA256SUMS.txt` — empreintes de contrôle des deux fichiers.
 
-**Les programmes ne sont pas signés numériquement.** Windows SmartScreen peut afficher un avertissement ; vérifiez la provenance et les empreintes SHA-256 avant toute installation. Ne neutralisez pas votre antivirus pour installer RL SESSION.
+Les [notes de la v0.1.3](NOTES_VERSION_0.1.3.md) sont disponibles. **Les programmes ne sont pas signés numériquement.** Windows SmartScreen peut afficher un avertissement ; vérifiez la provenance et les empreintes SHA-256 avant toute installation. Ne neutralisez pas votre antivirus.
 
 ## Installation et stockage
 
@@ -26,15 +28,15 @@ Fermez RL SESSION depuis la zone de notification avant une mise à niveau. Sauve
 
 L'installateur conserve normalement les données de chaque utilisateur dans `%LOCALAPPDATA%\RL-SESSION-RUST`. Le ZIP portable s'utilise après extraction **complète** et stocke par défaut les données à côté de l'exécutable, dans `data/`, sauf configuration de stockage explicite. Le dossier `mmr-transport` (Chromium) doit rester à côté du programme. Les rangs sont représentés par des **codes colorés**, sans sous-dossier d'illustrations `assets/ranks` dans les nouveaux téléchargements.
 
-Pour vérifier le téléchargement dans PowerShell :
+Pour vérifier le téléchargement (exemple pour la v0.1.3 lorsqu'elle sera publiée) dans PowerShell :
 
 ```powershell
-(Get-FileHash -Algorithm SHA256 '.\RL-SESSION-RUST-Setup-0.1.0-x64.exe').Hash
+(Get-FileHash -Algorithm SHA256 '.\RL-SESSION-RUST-Setup-0.1.3-x64.exe').Hash
 ```
 
 Comparez le résultat à la ligne correspondante de `SHA256SUMS.txt` disponible dans la même Release.
 
-## Fonctions de v0.1.0
+## Fonctions principales
 
 - Compteur de sessions Rocket League, résultats confirmés, modes séparés et historique conservé entre les redémarrages.
 - Module joueurs : équipes, vrais MMR transmis par Tracker lorsque disponibles, **23 codes de rangs colorés** (NC, B1 à GC3, SSL) et informations de match, sans illustrations de rangs.
@@ -48,6 +50,7 @@ Le MMR dépend d'un service externe non officiel ; des restrictions de réseau, 
 - [Sécurité, limites et signalement](SECURITE.md)
 - [Licence d'utilisation propriétaire](LICENCE-UTILISATION.md)
 - [Avis aux fans et droits des marques](NOTICE_EPIC.md)
+- [Notes de la version 0.1.3](NOTES_VERSION_0.1.3.md)
 - [Notes de la version 0.1.0](NOTES_VERSION_0.1.0.md)
 
 **Ce dépôt public héberge uniquement la documentation de distribution et les téléchargements binaires des Releases.** Le code de l'application est conservé dans un dépôt privé distinct. Les archives « Source code » créées automatiquement par GitHub ne contiennent que les fichiers publics de ce dépôt, et non le code de l'application.
